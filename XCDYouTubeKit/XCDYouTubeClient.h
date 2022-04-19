@@ -30,6 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  @name Initializing
  *  ------------------
  */
++(NSString *)innertubeApiKey;
++(void)setInnertubeApiKey:(NSString *)key;
 
 /**
  *  Returns the shared client with the default language, i.e. the preferred language of the main bundle.
